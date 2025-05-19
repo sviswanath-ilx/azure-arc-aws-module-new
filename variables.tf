@@ -1,15 +1,3 @@
-# variable "profile_name" {
-#   type        = string
-#   description = "Provide profile name for AWS CLI"
-#   default     = "sandbox"  # Replace with your actual AWS CLI profile name
-# }
-
-# variable "aws_region" {
-#   description = "Provide region name for AWS"
-#   type        = string
-#   default = "us-east-2"
-# }
-
 variable "ArcForServerEC2SSMRoleName" {
   default = "AzureArcForServerSSM"
   description = "The name of the IAM role assigned to the EC2 instance for SSM tasks."
